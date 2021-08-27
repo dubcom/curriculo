@@ -1,3 +1,34 @@
 body{
     font: normal 20px arial;
 }
+header{
+    margin: 50px;
+}
+section{
+    margin: 50px;
+}
+a{
+    color: black;
+    font-style: italic;
+    text-decoration: blink;
+}
+.logos{
+    width: 150px;
+    height: auto;
+}
+#sobre{
+    /*background-color: blue;*/
+    padding: 10px;
+    display: flex;
+}
+#foto{
+    /*background-color: brown;*/
+    height: auto;
+    width: 200px;
+}
+#sobre-texto{
+    /*background-color: chartreuse;*/
+    width:80%;
+    
+
+}
