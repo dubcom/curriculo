@@ -9,8 +9,8 @@ section{
 }
 a{
     color: black;
-    font-style: italic;
-    text-decoration: blink;
+    font-weight: bolder
+    
 }
 .logos{
     width: 150px;
@@ -29,6 +29,10 @@ a{
 #sobre-texto{
     /*background-color: chartreuse;*/
     width:80%;
-    
-
+}
+strong#email_contato{
+    text-decoration: underline;
+}
+li{
+    padding-bottom: 10px;
 }
