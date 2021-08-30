@@ -1,2 +1,2 @@
 # Projeto-site
- Blog pessoal hospedado no Github.
+ Pagina pessoal hospedada no Github.
