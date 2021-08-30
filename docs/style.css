@@ -1,11 +1,9 @@
 body{
     font: normal 20px arial;
     background-color:  rgb(100, 237, 130);
-   
 }
 header{
-
-    background-color: turquoise;
+    color: white;
     text-align: center;
     margin: auto;
 }
@@ -22,7 +20,6 @@ section{
 a{
     color: black;
     font-weight: bolder
-    
 }
 .logos{
     width: 150px;
