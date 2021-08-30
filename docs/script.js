@@ -1,5 +1,4 @@
 function copy(){
-    let email = 'leonardolopessocial@gmail.com'
-    navigator.clipboard.writeText(email)
+    navigator.clipboard.writeText('leonardolopessocial@gmail.com')
     alert(`Email copiado para Clipboard`)
 }

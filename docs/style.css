@@ -1,11 +1,23 @@
 body{
     font: normal 20px arial;
+    background-color:  rgb(100, 237, 130);
+   
 }
 header{
-    margin: 50px;
+
+    background-color: turquoise;
+    text-align: center;
+    margin: auto;
 }
 section{
-    margin: 50px;
+    box-shadow: 15px 15px 2px black;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 15px;
+    width: 1100px;
+    align-items: center; 
 }
 a{
     color: black;
