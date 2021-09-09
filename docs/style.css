@@ -1,20 +1,25 @@
+@charset "UTF-8";
+:root{
+    --verde: rgb(100, 237, 130)
+}
 body{
     font: normal 20px arial;
-    background-color:  rgb(100, 237, 130);
+    background-color: var(--verde);
 }
 header{
-    color: white;
     text-align: center;
-    margin: auto;
+    color: white;
+    min-width: 480px;
+    max-width: 1200px;
 }
 section{
-    box-shadow: 15px 15px 2px #50bd68;    
+    box-shadow: 15px 15px 5px #50bd68;    
     border-radius: 20px;
-    margin: auto;
-    margin-bottom: 50px;
+    margin: 10px auto 30px auto;
     background-color: white;
     padding: 15px;
-    width: 1100px;
+    min-width: 480px;
+    max-width: 1200px;
     align-items: center; 
 }
 a{
@@ -48,4 +53,10 @@ strong#email_contato{
 }
 li{
     padding-bottom: 10px;
+}
+#projetos a{
+    text-decoration: none;
+}
+#projetos a::after{
+    content: ': ';
 }
