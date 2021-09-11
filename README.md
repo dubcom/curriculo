@@ -1,2 +1,2 @@
-# Projeto-site
- Pagina pessoal hospedada no Github.
+# Curriculo
+ Curriculo/pagina pessoal hospedado no Github.
