@@ -7,7 +7,6 @@
 --color4: #04BFBF; 
 --color5: #05F2DB; 
 --color6: #FF8C64;
---sobrebgc: white;
 }
 *{
     font-family: 'Ubuntu', sans-serif;
@@ -49,7 +48,7 @@ header a:hover{
     text-shadow: 0px 0px 10px white;
 }
 section#home{
-    background: url(../img/large-triangles.svg) center fixed;
+    background: url(../img/Background_2.svg) center fixed;
     height: 80vh;
     width: 100%;
 }
@@ -77,11 +76,10 @@ section#home{
     background-color: var(--color3);
 }
 #sobre{
-    background-color: var(--sobrebgc);
-    height: 100vh;   
+    background-color: white;
+    height: 95vh;   
 }
 #sobre h1{
-    background-color: var(--sobrebgc);
     padding: 30px 0px 0px 0px ;
     text-align: center;
     font-size: 2.5em;
@@ -90,7 +88,7 @@ section#home{
 overflow: hidden;
 text-align: center;
 }
-#sobre h1:before, h1:after {
+#sobre h1:before, #sobre h1:after {
 background-color: #000;
 content: "";
 display: inline-block;
@@ -117,7 +115,7 @@ margin-right: -50%;
     line-height: 25px;
     margin: 0px auto;
     margin-left: 0%;
-    width: 50%;
+    max-width: 50%;
     text-align: justify;
 }
 #sobre_content h2{
@@ -143,13 +141,7 @@ margin-right: -50%;
 #sobre_fotos img{
     width: 100%;
 }
-/* display: flex;
-    background: url("images/perfil.svg") no-repeat center;
-    height: 100vh;
-    color: #fff;
-    min-height: 500px;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: 'Ubuntu', sans-serif;*/
-
-    /**/
+#skills{
+    height: 90vh;
+    background:url(../img/Background_2.svg) center fixed;
+}
