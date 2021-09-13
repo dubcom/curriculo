@@ -2,8 +2,8 @@ header.anime{
     background-color: #025059a2;
     height: 50px;
 }
-header.anime a{
-
+header.anime a {
+    font-size: 1em;
 }
 header.anime img{
     display: none;

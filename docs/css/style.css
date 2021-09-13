@@ -38,16 +38,17 @@ header a{
     text-decoration: none;
     padding: 10px 15px;
     font-weight: bold;
-    font-size: 1em; 
+    font-size: 1.3em; 
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: 0.6s;
 }
 header a:hover{
-    font-size: 1.3em;
+    font-size: 1.5em;
     text-decoration: underline;
     text-shadow: 0px 0px 10px white;
 }
+
 section#home{
     background: url(../img/Background_2.svg) center fixed;
     height: 80vh;
@@ -142,31 +143,46 @@ section#home{
 }
 #skills{
     height: 150vh;
-    background:url(../img/Background_2.svg) center fixed;
+    background-color: #111;
 }
 #skills h1{
     font-size: 2.5em;
     padding: 40px;
     text-align: center;
+    color: white;
 }
 #skills_habilidades{
     padding: 30px;
     margin: auto;
-    background: white;
-    max-width: 80%;
     height: 500px;
-    border-radius: 30px;
+    text-align: center;
 }
 .habilidades{
-    display: block;
-    margin: 0px auto 20px auto;
-    width: 45%;
-    
+   background-color: #222;
+   margin: 1%;
+   border-radius: 20px;
+   width: 220px;
+   height: 350px;
+   display: inline-block; 
+   
 }
-.habilidades span{
+.habilidades .logos{
+    width: 80%;
     display: block;
-    
+    margin: 25px auto 25px auto;   
 }
-.habilidades meter{
-    width: 100%;
+.habilidades #certificados{
+    width: 20%;
+    margin-top: 10%;
+    display: none;
+}
+.concluido #certificados{
+    display: inline-block;
+}
+.habilidades p{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5em;
+
 }
