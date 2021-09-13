@@ -11,18 +11,17 @@
 </head>
 <body>
     <header class="scroll">
-        <!-- <a href="#"><img src="img/perfil-100.png" alt=""></a> -->
         <nav> 
             <a href="#">Home</a>
             <a href="#sobre">Sobre min</a>
             <a href="#skills">Minhas skills</a>
-            <a href="#interesses">interesses</a>
-            
+            <!-- <a href="#interesses">interesses</a> -->
         </nav>
     </header>
     <section id="home" class="scroll">
         <div id="home_content">
-            <button>Me encontre</button>
+            <h2>Leonardo Lopes</h2>
+            <!-- <a href="#contato"><button>Me encontre</button></a> -->
         </div>
     </section>
     <section id="sobre">
@@ -33,7 +32,7 @@
                 <img src="img/leo.png">
             </div>
             <div id="sobre_content">
-                <h2>Eu sou Leonardo.</h2>
+                <h2>Oi, eu sou o Leo!</h2>
                 <p>
                     Olá! Meu nome é <strong>Leonardo William Lopes</strong> tenho 17 anos e moro em <a href="https://www.google.com/maps/place/Serrana+-+SP,+14150-000/@-21.2142083,-47.6730363,12z/data=!3m1!4b1!4m5!3m4!1s0x94b9daad84e615f1:0xf673853af833cf2e!8m2!3d-21.2062903!4d-47.6021095" target="_blank" rel="external">Serrana - SP</a>.
                 </p>
@@ -52,17 +51,23 @@
             <div class="habilidades concluido">
                 <abbr title="html5"><img src="img/logo_html.png" alt="logo html5" class="logos"></abbr>
                 <p>HTML 5</p> 
-                <img id="certificados" src="img/certificado.png" alt="">
+                <a href="" download="certificados/Leonardo-William-Lopes-Curso-HTML5-e-CSS3-modulo-1-de-5-40-HORAS-Certificado-Curso-em-Video.pdf">
+                    <img id="certificados" src="img/certificado.png" alt="Icone de certificado">
+                </a>
             </div>
             <div class="habilidades concluido">
                 <abbr title="Css3"><img src="img/logo_css.png" alt="logo css3" class="logos"></abbr>
                 <p>CSS 3</p> 
-                <img id="certificados" src="img/certificado.png" alt="Icone de certificado">
+                <a href="" download="certificados/Leonardo-William-Lopes-Curso-HTML5-e-CSS3-modulo-1-de-5-40-HORAS-Certificado-Curso-em-Video.pdf">
+                    <img id="certificados" src="img/certificado.png" alt="Icone de certificado">
+                </a>
             </div>
             <div class="habilidades concluido">
                 <abbr title="Javascript"><img src="img/logo_javascript.png" alt="logo logo_javascript" class="logos"></abbr>
                 <p>Javascript</p> 
-                <img id="certificados" src="img/certificado.png" alt="Icone de certificado">
+                <a href="" download="certificados/Leonardo-William-Lopes-Javascript-40-Horas-Certificado-Curso-em-Video.pdf">
+                    <img id="certificados" src="img/certificado.png" alt="Icone de certificado">
+                </a>
             </div>
             <div class="habilidades">
                 <abbr title="Python"><img src="img/logo_python.png" alt="logo python" class="logos"></abbr>
@@ -76,6 +81,27 @@
             </div>          
         </div>
     </section>
+    <section id="contato">
+        <h1>Contato</h1>
+        <div id="contato_content">
+            <p>Agumas formas de me achar :</p>
+            <ul>
+                <li>
+                    <img class="miniaturas" src="assets/github-logo-24.png" alt="Logo github">
+                    Minha pagina no <a href="https://github.com/LeonardoWlopes" rel="external" target="_blank">Github</a>.
+                <li>
+                    <img class="miniaturas" src="assets/instagram-logo-24.png" alt="logo instagram">
+                    Meu perfil no <a href="https://www.instagram.com/leonardowlopes/?hl=pt-br" rel="external" target="_blank">Instagram</a>
+                <li>
+                    <img class="miniaturas" src="assets/mail-send-regular-24.png" alt="simbolo Email">
+                    Ou mande um emai para <strong onclick="copy()" id="email_contato">Leonardolopessocial@gmail.com</strong>
+                    
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;&nbsp;Leonardo William Lopes</p>
+    </footer>
     <script src="scripts/script.js"></script>
 </body>
 </html>
