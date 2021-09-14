@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 :root{
---color1: #025159; 
+--color1: #00ffff; 
 --color2: #012326; 
 --color3: #05F2F2; 
 --color4: #04BFBF; 
@@ -15,9 +15,9 @@
     padding: 0;
     text-decoration: none;
 }
-html{
+html {
     scroll-behavior: smooth;
-}
+  }
 header{
     width: 100%;
     height: 140px;
@@ -71,18 +71,6 @@ section#home{
     transition: 0.6s;
     transform: translateY(220px);
 }
-/* #home_content button{
-    display: block;
-    margin: auto;
-    background: #17bbfc;
-    color: white;
-    font-size: 25px;
-    padding: 15px 10px;
-    border: solid 4px var(--color3);
-    border-radius: 35px;
-    transition: 0.6s;
-    transform: translateY(290px);
-} */
 #home_content button:hover{
     background: var(--color3);
     
@@ -122,7 +110,7 @@ section#home{
 }
 #sobre_content{
     font-size: 1.1em;
-    line-height: 25px;
+    line-height: 30px;
     margin: 0px auto;
     margin-left: 0%;
     max-width: 50%;
@@ -153,6 +141,7 @@ section#home{
 #skills{
     height: auto;
     background-color: #111;
+    padding: 0px 2%;
     
 }
 #skills h1{
@@ -181,12 +170,14 @@ section#home{
    height: 350px;
    display: inline-block; 
    transition: 0.6s;
+   box-shadow: 4px 4px 2px rgba(27, 27, 27, 0.445);
 }
 .habilidades:hover{
     background-color: #0f2729;
     width: 225px;
     height: 360px;
     border: solid 2px #00ffff; 
+    box-shadow: none;
 }
 .habilidades .logos{
     width: 80%;
@@ -212,9 +203,9 @@ section#home{
     font-size: 1.5em;
 }
 #contato{
-    height: 100vh;
+    height: auto;
     background-color: #222;
-    
+    padding-bottom: 20vh;
 }
 #contato h1{
     font-size: 2.5em;
@@ -225,12 +216,11 @@ section#home{
 }
 #contato_content{
     border-radius: 50px 5px;
-    background-color: white;
-    padding: 70px;
+    padding: 30px 0px;
     margin: auto;
     width: 60%;
     font-size: 1.5em;
-    box-shadow: 3px 3px 3px rgb(17, 17, 17);
+    text-align: center;
 }
 #contato_content ul{
     list-style-type: none;
@@ -242,6 +232,24 @@ section#home{
 #contato_content a{
     color: #222;
     text-decoration: underline;
+}
+.contatos{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    border: solid 3px #222;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px black;
+    transition: 0.6s;
+    background-color: white;
+}
+.contatos:hover{
+    width: 130px;
+    height: 130px;
+}
+.logos_contatos{
+    width: 100%;
 }
 .miniaturas{
     transform: translateY(4px);

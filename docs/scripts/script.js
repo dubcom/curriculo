@@ -4,5 +4,5 @@ window.addEventListener('scroll', function(){
 })
 function copy_email(){
     navigator.clipboard.writeText("Leonardolopessocial@gmail.com")
-    alert('Copiado para Clipboard')
+    alert('Email copiado para Clipboard')
 }
