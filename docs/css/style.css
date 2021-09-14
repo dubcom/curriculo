@@ -34,6 +34,7 @@ header nav{
     transition: 0.6s;
 }
 header a{
+    
     color: white;
     text-decoration: none;
     padding: 10px 15px;
@@ -160,6 +161,12 @@ section#home{
     text-align: center;
     color: white;
 }
+#skills h1::before{
+    content: '<';
+}
+#skills h1::after{
+    content: '/>';
+}
 #skills_habilidades{
     padding: 30px;
     margin: auto;
@@ -207,23 +214,38 @@ section#home{
 #contato{
     height: 100vh;
     background-color: #222;
-    display: none;
+    
 }
 #contato h1{
     font-size: 2.5em;
     padding: 70px;
     text-align: center;
+    color: white;
+    
 }
 #contato_content{
-    border-radius: 50px;
+    border-radius: 50px 5px;
     background-color: white;
     padding: 70px;
     margin: auto;
-    width: 80%;
-    font-size: 1.2em;
+    width: 60%;
+    font-size: 1.5em;
+    box-shadow: 3px 3px 3px rgb(17, 17, 17);
+}
+#contato_content ul{
+    list-style-type: none;
+    padding: 10px 0px;
+}
+#contato_content li{
+    padding: 5px 0px;
+}
+#contato_content a{
+    color: #222;
+    text-decoration: underline;
 }
 .miniaturas{
     transform: translateY(4px);
+    width: 25px;
 }
 footer{
     background-color: rgb(26, 26, 26);
