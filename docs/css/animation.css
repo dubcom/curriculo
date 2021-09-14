@@ -1,12 +1,16 @@
 header.anime{
     background-color: #025059a2;
-    height: 13vh;
+    height: 10vh;
 }
 header.anime a {
-    font-size: 1.8vh;
+    transform: scale(0.8);
 }
-header.anime img{
-    display: none;
+header.pequeno a{
+    font-size: 2.5vh;
+    padding: 1vh;
+}
+header.anime.pequeno{
+    height: 10vh;
 }
 #sobre_container.pequeno{
     display: block;
