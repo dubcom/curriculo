@@ -14,3 +14,7 @@ window.addEventListener('resize', function(){
     let sobre_img = document.querySelector('div#sobre_container')
     sobre_img.classList.toggle('pequeno', window.innerWidth < 760)
 })
+window.addEventListener('resize', function(){ 
+    let header = document.querySelector('header')
+    header.classList.toggle('pequeno', window.innerWidth < 760)
+})

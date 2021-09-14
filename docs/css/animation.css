@@ -5,8 +5,9 @@ header.anime{
 header.anime a {
     font-size: 2.2vh;
 }
-header.anime img{
-    display: none;
+header.pequeno a{
+    padding: 10px 1vw;
+    font-size: 3vw;
 }
 #sobre_container.pequeno{
     display: block;
@@ -19,3 +20,4 @@ header.anime img{
     max-width: 100%;
     font-size: 0.9em;
 }
+
