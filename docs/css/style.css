@@ -85,7 +85,7 @@ section#home{
 #sobre h1{
     padding: 70px 0px 0px 0px ;
     text-align: center;
-    font-size: 7vh;
+    font-size: 5vh;
     overflow: hidden;
     text-align: center;
 }
@@ -112,7 +112,6 @@ section#home{
     display: flex; 
 }
 #sobre_content{
-    
     font-size: 1.1em;
     line-height: 30px;
     margin: 0px auto;

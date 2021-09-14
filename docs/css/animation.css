@@ -17,4 +17,5 @@ header.anime img{
 }
 #sobre_container.pequeno #sobre_content{
     max-width: 100%;
+    font-size: 0.9em;
 }
