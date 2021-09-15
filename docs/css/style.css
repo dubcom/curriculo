@@ -110,6 +110,9 @@ section#home{
     margin: 70px 50px auto 50px;
     display: flex; 
 }
+#sobre_container img{
+    border-radius: 50%;
+}
 #sobre_content{
     font-size: 3vh;
     line-height: 5vh;
