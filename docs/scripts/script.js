@@ -3,8 +3,9 @@ window.addEventListener('scroll', function(){
     header.classList.toggle('anime', window.scrollY > 0);
 })
 function copy_email(){
-    navigator.clipboard.writeText("Leonardolopessocial@gmail.com")
-    alert('Email copiado para Clipboard')
+    let email = 'Leonardolopessocial@gmail.com'
+    navigator.clipboard.writeText(email)
+    alert('Email: Leonardolopessocial@gmail.com, copiado para Clipboard')
 }
 function inicial_width(){
     let sobre_img = document.querySelector('div#sobre_container')
