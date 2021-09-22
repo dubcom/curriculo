@@ -5,7 +5,7 @@ window.addEventListener('scroll', function(){
 function copy_email(){
     let email = 'Leonardolopessocial@gmail.com'
     navigator.clipboard.writeText(email)
-    alert('Email copiado para Clipboard')
+    alert('Email: Leonardolopessocial@gmail.com, copiado para Clipboard')
 }
 function inicial_width(){
     let sobre_img = document.querySelector('div#sobre_container')
