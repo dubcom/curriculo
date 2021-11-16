@@ -11,11 +11,11 @@ export default function App() {
           <a href="#">Skills</a>
           <a href="#">Laboratorio</a>
           <a href="#">Contato</a>
-          
         </nav>
+        {/* TRASFORMAR EM COMPONENTES SEU MERDA */}
       </header>
       <main>
-        <div className='teste'>Teste</div>
+        <div className="teste">Teste</div>
       </main>
     </div>
   );
