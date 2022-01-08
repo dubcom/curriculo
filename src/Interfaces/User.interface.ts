@@ -1,0 +1,34 @@
+export interface IUser {
+  avatar_url: "https://avatars.githubusercontent.com/u/62454440?v=4";
+  bio: "Programador iniciante com interesses em Front e Back-End  ";
+  blog: "https://leonardowlopes.github.io/curriculo/";
+  company: null;
+  created_at: "2020-03-21T02:16:03Z";
+  email: null;
+  events_url: "https://api.github.com/users/LeonardoWlopes/events{/privacy}";
+  followers: 10;
+  followers_url: "https://api.github.com/users/LeonardoWlopes/followers";
+  following: 9;
+  following_url: "https://api.github.com/users/LeonardoWlopes/following{/other_user}";
+  gists_url: "https://api.github.com/users/LeonardoWlopes/gists{/gist_id}";
+  gravatar_id: "";
+  hireable: null;
+  html_url: "https://github.com/LeonardoWlopes";
+  id: 62454440;
+  location: "Serrana - SP";
+  login: "LeonardoWlopes";
+  name: "Leonardo William Lopes";
+  node_id: "MDQ6VXNlcjYyNDU0NDQw";
+  organizations_url: "https://api.github.com/users/LeonardoWlopes/orgs";
+  public_gists: 0;
+  public_repos: 15;
+  received_events_url: "https://api.github.com/users/LeonardoWlopes/received_events";
+  repos_url: "https://api.github.com/users/LeonardoWlopes/repos";
+  site_admin: false;
+  starred_url: "https://api.github.com/users/LeonardoWlopes/starred{/owner}{/repo}";
+  subscriptions_url: "https://api.github.com/users/LeonardoWlopes/subscriptions";
+  twitter_username: null;
+  type: "User";
+  updated_at: "2022-01-03T08:00:54Z";
+  url: "https://api.github.com/users/LeonardoWlopes";
+}
