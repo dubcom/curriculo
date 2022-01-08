@@ -5,7 +5,7 @@ import UserCard from "../../Components/Cards/UserCard";
 import ContactCard from "../../Components/Cards/ContactCard";
 import SkillCard from "../../Components/Cards/SkillCard";
 import Repos from "../../Components/Repos";
-import GitHubStats from "../../Components/GithubStats";
+import GitHubStats from "../../Components/Repos copy";
 
 export default function MainScreen() {
   const [isColumn, setIsColumn] = useState(false);
