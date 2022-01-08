@@ -1,24 +1,32 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+interface props {
+  isColumn: boolean;
+}
+
+export const Container = styled.div<props>`
   width: 100%;
   min-height: 100vh;
   height: 100%;
   background-color: #22212c;
-  //flex-direction: column;
+
+  flex-direction: ${(props) => (props.isColumn ? "column" : "row")};
 `;
 
-export const LeftContainer = styled.div`
+export const LeftContainer = styled.div<props>`
   //background-color: brown;
   min-height: 100%;
-  width: 20%;
-  padding: 16px;
+  max-width: ${(props) => (props.isColumn ? "100%" : "25%")};
+  padding: 42px;
   flex-direction: column;
   align-items: center;
 `;
 
-export const RightContainer = styled.div`
-  // background-color: blue;
+export const RightContainer = styled.div<props>`
+  //background-color: blue;
   min-height: 100%;
-  width: 80%;
+  max-width: ${(props) => (props.isColumn ? "100%" : "75%")};
+  padding: ${(props) => (props.isColumn ? "0px" : "16px")};
+  margin: auto;
+  padding: 0px 16px;
 `;
