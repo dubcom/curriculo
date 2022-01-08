@@ -15,7 +15,7 @@ export default function ContactCard() {
     <S.Container>
       <S.Linha>
         <S.Icone src={MapPin} />
-        <S.Text>Brasil</S.Text>
+        <S.Text>{user?.location}</S.Text>
       </S.Linha>
       <S.Linha>
         <S.Icone src={GitHub} />

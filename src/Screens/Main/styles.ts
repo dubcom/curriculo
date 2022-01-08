@@ -26,7 +26,8 @@ export const RightContainer = styled.div<props>`
   //background-color: blue;
   min-height: 100%;
   max-width: ${(props) => (props.isColumn ? "100%" : "75%")};
-  padding: ${(props) => (props.isColumn ? "0px" : "16px")};
-  margin: auto;
-  padding: 0px 16px;
+  //margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: ${(props) => (props.isColumn ? "0px" : "58px")} 16px;
 `;

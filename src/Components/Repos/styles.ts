@@ -3,9 +3,14 @@ import { colors } from "../../Styles/styles";
 
 import SVG from "react-inlinesvg";
 
+interface props {
+  color?: string;
+  open?: Boolean;
+}
+
 export const Container = styled.div`
-  width: 95%;
-  //background-color: blue;
+  width: 100%;
+  // background-color: blue;
   display: flex;
   flex-direction: column;
   margin: 0px auto;
@@ -15,6 +20,7 @@ export const TitleContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   flex-direction: row;
   max-width: 100%;
   height: 85px;
@@ -40,18 +46,22 @@ export const Link = styled.a`
   color: ${colors.textcolor};
 `;
 
-export const ReposContainer = styled.div`
+export const ReposContainer = styled.div<props>`
   margin: 16px auto;
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
   //background-color: red;
-
+  top: 0px;
+  position: relative;
+  overflow-y: auto;
   width: 100%;
-  height: auto;
+  height: ${(props) => (props.open ? "auto" : "410px")};
 `;
 
 export const CardContainer = styled.div`
+  display: flex;
+  flex-direction: column;
   max-width: 380px;
   min-width: 300px;
   width: 100%;
@@ -63,17 +73,77 @@ export const CardContainer = styled.div`
 `;
 
 export const Head = styled.div`
-  position: relative;
-  background-color: rgba(0, 0, 0, 0.2);
-  width: 100%;
+  width: auto;
   height: min-content;
   align-items: center;
-  top: 30px;
+  margin-top: 28px;
   padding: 0px 32px;
+  // background-color: blue;
 `;
 
-export const Folder = styled(SVG)`
+export const Icon = styled(SVG)`
   width: 25px;
   height: 25px;
   color: ${colors.textcolor};
+  margin-right: 8px;
+`;
+
+export const RepoTitle = styled.span`
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: ${colors.textcolor};
+`;
+
+export const Body = styled.div`
+  //background-color: rgba(0, 0, 0, 0.2);
+  padding: 0px 32px;
+  margin-top: 16px;
+  height: 40%;
+  align-items: center;
+`;
+
+export const BodyText = styled.span`
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: ${colors.textcolor};
+`;
+
+export const Foot = styled.div`
+  padding: 0px 32px;
+  margin-top: 16px;
+  height: 40%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+`;
+
+export const FootLeft = styled.div`
+  justify-content: space-between;
+  height: 100%;
+  width: 30%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+`;
+
+export const FootRight = styled.div`
+  padding: 0px 32px;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+`;
+
+export const LanguageColor = styled.div<props>`
+  width: 15px;
+  height: 15px;
+  background-color: ${(props) => props.color};
+  border-radius: 50%;
+  border: 2px solid #837e9f;
+  margin-right: 8px;
 `;

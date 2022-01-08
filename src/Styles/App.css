@@ -15,3 +15,8 @@
 div {
   display: flex;
 }
+
+.RepoCard:hover {
+  cursor: pointer;
+  background-color: #2e2d3a;
+}
