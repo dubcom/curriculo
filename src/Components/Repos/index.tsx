@@ -14,6 +14,7 @@ interface ICard {
   forks: string;
   language: string;
   html_url: string;
+  updated_at: string;
 }
 
 export default function Repos() {
@@ -87,6 +88,10 @@ export default function Repos() {
     );
   }
 
+  const OrderedRepos = repos?.sort(function (a, b) {
+    return b.updated_at.localeCompare(a.updated_at);
+  });
+
   return (
     <S.Container>
       <S.TitleContainer onClick={() => setOpen(!open)} className="RepoCard">
@@ -99,7 +104,7 @@ export default function Repos() {
         </S.Link>
       </S.TitleContainer>
       <S.ReposContainer open={open}>
-        {repos?.map((repo) => (
+        {OrderedRepos?.map((repo) => (
           <RepoCard
             key={repo.id}
             id={repo.id}
@@ -109,6 +114,7 @@ export default function Repos() {
             forks={repo.forks}
             language={repo.language}
             html_url={repo.html_url}
+            updated_at={repo.updated_at}
           />
         ))}
       </S.ReposContainer>
