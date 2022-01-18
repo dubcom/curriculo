@@ -10,16 +10,14 @@ export default function SkillCard() {
     { name: "Type SCRIPT" },
     { name: "React Js" },
     { name: "React Native" },
-    { name: "Redux" },
-    { name: "Hooks" },
+
     { name: "html 5" },
     { name: "css 3" },
     { name: "styled components" },
     { name: "node js" },
-    { name: "express" },
+
     { name: "postgresql" },
     { name: "prisma" },
-    { name: "express" },
   ];
 
   function Item({ name }: ItemProps) {
