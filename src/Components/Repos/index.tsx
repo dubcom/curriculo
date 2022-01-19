@@ -59,11 +59,11 @@ export default function Repos() {
         onClick={() => {
           window.open(html_url, "_blank");
         }}
-        className="RepoCard"
+        className="RepoCard notranslate"
       >
         <S.Head>
           <S.Icon src={Folder} />
-          <S.RepoTitle>{name}</S.RepoTitle>
+          <S.RepoTitle >{name}</S.RepoTitle>
           {!!homepage && (
             <S.Rocket
               src={Rocket}
