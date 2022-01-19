@@ -23,7 +23,7 @@ export default function SkillCard() {
   function Item({ name }: ItemProps) {
     return (
       <S.ItemContainer>
-        <S.Skill>{name}</S.Skill>
+        <S.Skill className="notranslate">{name}</S.Skill>
       </S.ItemContainer>
     );
   }
