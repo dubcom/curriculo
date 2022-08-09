@@ -2,11 +2,11 @@ import { useContext } from "react";
 import UserContext from "../../../Context/UserContext";
 import * as S from "./styles";
 
-import MapPin from "../../../Assets/map-pin.svg";
 import GitHub from "../../../Assets/github.svg";
-import Linkedin from "../../../Assets/linkedin.svg";
 import Instagram from "../../../Assets/instagram.svg";
+import Linkedin from "../../../Assets/linkedin.svg";
 import Email from "../../../Assets/mail.svg";
+import MapPin from "../../../Assets/map-pin.svg";
 
 export default function ContactCard() {
   const { user } = useContext(UserContext);
@@ -26,26 +26,26 @@ export default function ContactCard() {
       <S.Linha>
         <S.Icone src={Linkedin} />
         <S.Link
-          href="https://www.linkedin.com/in/leonardowilliamlopes/"
+          href="https://www.linkedin.com/in/compromitto/"
           target={"_blank"}
         >
-          Leonardo William Lopes
+          Marcos Antonio 
         </S.Link>
       </S.Linha>
 
       <S.Linha>
         <S.Icone src={Instagram} />
         <S.Link
-          href="https://www.instagram.com/leonardowlopes/?hl=pt-br"
+          href="https://www.instagram.com/marcofinal"
           target={"_blank"}
         >
-          LeonardoWLopes
+          MarcoFinal
         </S.Link>
       </S.Linha>
       <S.Linha>
         <S.Icone src={Email} />
-        <S.Link href="mailto:leonardolopessocial@gmail.com" target={"_blank"}>
-          leonardolopessocial@gmail.com
+        <S.Link href="mailto:marcos@compromitto.com.br" target={"_blank"}>
+          marcos@compromitto.com.br
         </S.Link>
       </S.Linha>
     </S.Container>

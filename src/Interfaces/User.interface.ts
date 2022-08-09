@@ -15,9 +15,9 @@ export interface IUser {
   hireable: null;
   html_url: "https://github.com/dubcom";
   id: 62454440;
-  location: "Serrana - SP";
+  location: "Florianópolis - SC";
   login: "dubcom";
-  name: "Leonardo William Lopes";
+  name: "Marcos Antonio ";
   node_id: "MDQ6VXNlcjYyNDU0NDQw";
   organizations_url: "https://api.github.com/users/dubcom/orgs";
   public_gists: 0;
